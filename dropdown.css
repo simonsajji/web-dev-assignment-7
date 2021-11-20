@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Fira+Sans+Extra+Condensed:wght@300&family=Lato:wght@300&family=Maven+Pro&family=Permanent+Marker&family=Poiret+One&family=Roboto:wght@300&family=Shippori+Antique&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url('./b1.jpg');
+}
+
+
+.head {
+    display:flex;
+   height:56px;
+   width:100%;
+   justify-content:start;
+   background-color: rgba(27, 27, 27, 0.7);
+   
+   display:flex;
+ background-color: #333;
+}
+
+ul{
+    margin-right: 10px;
+    padding: 10px;
+    list-style: none;
+}
+a{
+    margin-right: 20px;
+    text-align: center;
+    padding: 12px 15px 12px 15px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+    
+}
+.mainMenu>li{
+    display: inline-block;
+    margin-left: -5px;
+    margin-bottom: 5px;
+}
+li:hover>a{
+    background-color: rgba(125, 40, 40, 0.4);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.subMenu{
+    position: absolute;
+    display: none;
+    margin-bottom: 5px;
+}
+.subMenu li{
+    
+    position: relative;
+}
+.mainMenu>li:hover .subMenu{
+    display: block;
+}
+.SuperSubMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    -ms-transform: translate(100%,0);
+    -webkit-transform: translate(100%,0);
+    transform:translate(100%,0);
+    display: none;
+}
+.subMenu li:hover>.SuperSubMenu{
+    display: block;
+}
+
+
+
+
+
+.logo{
+    display:flex;
+    width: 200px;
+    margin-left:20px;
+    margin-right: 0px;
+    color:white;
+}
+
+
+
+
+
+
+
+i{
+    width: 80px;
+    height:100%;
+    color:white;
+}
+
+h2{
+    margin:10px;
+    margin-left:0px;
+    font-size:28px;
+    color:rgb(193, 59, 59);
+    font-family: 'Lato', sans-serif;
+}
+.c1{
+    margin-top:150px;
+    width:40%;
+    margin-left:40px;
+    color:rgba(0, 0, 0, 0.75);
+
+
+}
